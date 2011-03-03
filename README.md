@@ -35,6 +35,6 @@ This class can be used to make Entity Framework generate db schema for your mode
 Want to participate in this project?
 ------------------------------------
 
- * Fill free to [fork](https://github.com/rialib/efextensions/fork) this repo and [pull back](https://github.com/rialib/efextensions/pull/new/master) your updates
+ * Fill free to [fork](https://github.com/rialib/efextensions) this repo and [pull back](https://github.com/rialib/efextensions/pull/new/master) your updates
  * Participate in [discussions](https://groups.google.com/forum/#!forum/rialib), share your feedback, [submit issues](https://github.com/rialib/efextensions/issues)
  * Follow us on [Twitter](http://twitter.com/rialib)
