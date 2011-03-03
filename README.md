@@ -3,6 +3,8 @@
 
 The ADO.NET Entity Framework Extensions library contains a set of utility classes with additional functionality to Entity Framework CTP5.
 
+The latest version is at: [http://github.com/rialib/efextensions](http://github.com/rialib/efextensions)
+
 NotifyIfModelOutOfSync
 ----------------------
 
