@@ -47,7 +47,7 @@
     <Compile Include="..\Solution Items\SolutionInfo.cs">
       <Link>Properties\SolutionInfo.cs</Link>
     </Compile>
-    <Compile Include="Entity\Configuration\TableSchemaConvention.cs" />
+    <Compile Include="Entity\Database\TableSchemaConvention.cs" />
     <Compile Include="Entity\Database\NotifyIfModelOutOfSync.cs" />
     <Compile Include="Exceptions.Designer.cs">
       <AutoGen>True</AutoGen>
