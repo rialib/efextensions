@@ -18,16 +18,12 @@ This class can be used to send you notification (or throw an exception) if model
 TableSchemaConvention
 ---------------------
 
-This class can be used to make Entity Framework generate db schema for your models with respect to their parent namespace(s). For example if you have a model `RiaLib.Data.Models.Membership.User` then coresponding db table will be called [Membership].[User] instead of [dbo].[User].
+This class can be used to make Entity Framework generate db schema for your models with respect to their parent namespace(s). For example if you have a model `RiaLib.Data.Models.Membership.User` then corresponding db table will be called [Membership].[User] instead of [dbo].[User].
 
     public class DatabaseContext : DbContext
     {
-        public DbSet<Membership.User> Users { get; set; }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Conventions.Remove<IncludeMetadataConvention>();
-
             modelBuilder.Conventions.Add(new TableSchemaConvention());
 			
 			base.OnModelCreating(modelBuilder);
